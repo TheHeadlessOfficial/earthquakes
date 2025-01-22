@@ -11,7 +11,7 @@ If your `home` is named *pippo*, copy inside *pippo* so you get: `/home/pippo/.c
 Go to /home/YOURHOMENAME/.conky/earthquakes/font and install the font.<br>
 No modifications to do.
 <br>
-The python script saves data in files so you can build your conky moon as you wish.<br>
+The python script saves data in files so you can build your conky earthquakes as you wish.<br>
 The `.conkyrc_eq` file i attach, works.<br>
 Run the file `.conkyrc_eq` from terminal (the first time you run this conky), so you can get possible errors. 
 
