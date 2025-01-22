@@ -26,9 +26,9 @@ Run the file `.conkyrc_eq` from terminal (the first time you run this conky), so
 ![](https://github.com/TheHeadlessOfficial/earthquakes/blob/main/.conky/earthquakes/docs/screenshot.png)<br>
 
 The colors for the first column (Mag) are:
-- from 0 to <4 '#29a329' green
-- from 4 to <6 orange
-- >=6 red
+- from 0 to <4:  green
+- from 4 to <6: orange
+- from 6 to max: red
 
 <br>
 <br>
