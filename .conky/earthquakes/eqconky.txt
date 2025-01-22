@@ -1,0 +1,240 @@
+${color6}${execpi 600 sed -n '24p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '23p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '16p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '18p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '19p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '20p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '22p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '17p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '50p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '49p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '42p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '44p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '45p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '46p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '48p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '43p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '76p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '75p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '68p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '70p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '71p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '72p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '74p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '69p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '102p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '101p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '94p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '96p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '97p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '98p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '100p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '95p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '128p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '127p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '120p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '122p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '123p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '124p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '126p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '121p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '154p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '153p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '146p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '148p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '149p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '150p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '152p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '147p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '180p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '179p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '172p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '174p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '175p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '176p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '178p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '173p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '206p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '205p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '198p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '200p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '201p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '202p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '204p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '199p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '232p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '231p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '224p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '226p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '227p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '228p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '230p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '225p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color3}${execpi 600 sed -n '258p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color3}${execpi 600 sed -n '257p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '250p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '252p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '253p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '254p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '256p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '251p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '284p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '283p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '276p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '278p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '279p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '280p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '282p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '277p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '310p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '309p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '302p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '304p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '305p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '306p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '308p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '303p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '336p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '335p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '328p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '330p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '331p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '332p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '334p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '329p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color3}${execpi 600 sed -n '362p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color3}${execpi 600 sed -n '361p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '354p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '356p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '357p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '358p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '360p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '355p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color3}${execpi 600 sed -n '388p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color3}${execpi 600 sed -n '387p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '380p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '382p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '383p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '384p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '386p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '381p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '414p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '413p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '406p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '408p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '409p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '410p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '412p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '407p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '440p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '439p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '432p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '434p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '435p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '436p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '438p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '433p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color3}${execpi 600 sed -n '466p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color3}${execpi 600 sed -n '465p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '458p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '460p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '461p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '462p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '464p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '459p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '492p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '491p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '484p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '486p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '487p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '488p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '490p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '485p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '518p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '517p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '510p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '512p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '513p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '514p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '516p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '511p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color3}${execpi 600 sed -n '544p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color3}${execpi 600 sed -n '543p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '536p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '538p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '539p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '540p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '542p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '537p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '570p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '569p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '562p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '564p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '565p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '566p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '568p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '563p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color3}${execpi 600 sed -n '596p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color3}${execpi 600 sed -n '595p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '588p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '590p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '591p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '592p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '594p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '589p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '622p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '621p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '614p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '616p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '617p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '618p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '620p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '615p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '648p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '647p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '640p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '642p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '643p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '644p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '646p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '641p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '674p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '673p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '666p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '668p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '669p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '670p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '672p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '667p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '700p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '699p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '692p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '694p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '695p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '696p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '698p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '693p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color3}${execpi 600 sed -n '726p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color3}${execpi 600 sed -n '725p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '718p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '720p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '721p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '722p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '724p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '719p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color6}${execpi 600 sed -n '752p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color6}${execpi 600 sed -n '751p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '744p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '746p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '747p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '748p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '750p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '745p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
+${color3}${execpi 600 sed -n '778p' $HOME/.conky/earthquakes/eq.txt | cut -c14-16} 
+${color3}${execpi 600 sed -n '777p' $HOME/.conky/earthquakes/eq.txt | cut -c10-12}${color}
+${GOTO 50}${execpi 600 sed -n '770p' $HOME/.conky/earthquakes/eq.txt | cut -c11-20}
+${GOTO 120}${execpi 600 sed -n '772p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 160}${execpi 600 sed -n '773p' $HOME/.conky/earthquakes/eq.txt | cut -c10-14}
+${GOTO 210}${execpi 600 sed -n '774p' $HOME/.conky/earthquakes/eq.txt | cut -c12-16}
+${GOTO 265}${execpi 600 sed -n '776p' $HOME/.conky/earthquakes/eq.txt | cut -c11-16}
+${GOTO 310}${execpi 600 sed -n '771p' $HOME/.conky/earthquakes/eq.txt | cut -c19-50}
