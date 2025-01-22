@@ -22,7 +22,7 @@ Run the file `.conkyrc_eq` from terminal (the first time you run this conky), so
 
 ## Screenshot
 
-![](https://github.com/TheHeadlessOfficial/moon-phases/blob/main/.conky/earthquakes/docs/screenshot_01.png)<br>
+![](https://github.com/TheHeadlessOfficial/earthquakes/blob/main/.conky/earthquakes/docs/screenshot.png)<br>
 
 <br>
 <br>
