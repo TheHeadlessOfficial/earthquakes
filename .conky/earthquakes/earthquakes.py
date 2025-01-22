@@ -2,8 +2,8 @@ import os, sys
 import requests
 # Lock file to tell conky that the script is running
 lock_file = "/tmp/script_done.lock"
-# Crea il file di lock all'inizio
 try:
+    # Create lock file
     open(lock_file, 'w').close()
     #   number of rows
     rows = 30
@@ -86,7 +86,6 @@ try:
             row1_8 = "${GOTO 310}${execpi " + str(time) + " sed -n '" + str(temp) + "p' $HOME" + conkypath + "earthquakes/eq.txt | cut -c19-50}"
             fo.write('{}\n'.format(row1_8))
             delta = delta + 26
-    #fo.close()
     ###################################                  write conky final statements to copy in conky file
     last = rows * 8 + 1
     with open(filepathconkyfin, 'w') as fo:
@@ -95,10 +94,11 @@ try:
             rowconky = "${execpi " + str(time) + " sed -n '" + str(temp) + "p' $HOME" + conkypath + "earthquakes/eqconky.txt}"
             fo.write('{}\n'.format(rowconky))
 except Exception as e:
-    # Gestione delle eccezioni (opzionale)
+    # Manage exceptions (optional)
     filelockerror = (f"Error during script execution: {e}")
-    #print(filelockerror)
 finally:
-    # Rimuovi il file di lock alla fine, anche in caso di errore
-    os.remove(lock_file)
-    #print("File di lock rimosso.")
+    # remove lock file
+    try:
+        os.remove(lock_file)
+    except FileNotFoundError:
+        pass  # file already removed
