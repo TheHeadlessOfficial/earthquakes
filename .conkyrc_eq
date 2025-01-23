@@ -59,7 +59,7 @@ conky.config = {
 	stippled_borders = 5,
 --text_buffer_size = 2048,
 --total_run_times 0,
-	update_interval = 60,
+	update_interval = 600,
 	uppercase = false,-- set to yes if you want all text to be in uppercase
 	use_spacer = 'none',
 	use_xft = true,
