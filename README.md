@@ -1,6 +1,6 @@
 # Conky Earthquakes
  
-A standalone conky (written in Python) that shows the erathquakes, using [seismicportal.eu](https://www.seismicportal.eu/) website.<br>
+A standalone conky (written in Python) that shows the earthquakes, using [seismicportal.eu](https://www.seismicportal.eu/) website.<br>
 <br>
 <br>
 
