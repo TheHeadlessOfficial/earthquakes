@@ -3,7 +3,7 @@ import requests
 # Lock file to tell conky that the script is running
 lock_file = "/tmp/script_eq.lock"
 try:
-    # Create lock file
+    # Check for file lock
     open(lock_file, 'w').close()
     #   number of rows
     rows = 30
