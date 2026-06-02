@@ -1,104 +1,59 @@
-# Lock file to tell conky that the script is running
-lock_file = "/tmp/script_eq.lock"
+import os
+import requests
+
+# Set how many earthquakes you want to see in the list (e.g. 10, 15, 20...)
+rows = 30 
+homepath = os.environ['HOME']
+filepathconky = os.path.join(homepath, '.conky/earthquakes/eqconky.txt')
+filepath_tmp = filepathconky + '.tmp'
+
+url = f"https://www.seismicportal.eu/fdsnws/event/1/query?format=json&limit={rows}&orderby=time"
+
 try:
-    # Check for file lock
-    open(lock_file, 'w').close()
-    import os, sys
-    import requests
-    #   number of rows
-    rows = 30
-    ################################ get your HOME name automatically
-    homepath = os.environ['HOME']
-    homename = homepath
-    homename = homename[6:]
-    ###################################                  website url
-    url = "https://www.seismicportal.eu/fdsnws/event/1/query?callback=angular.callbacks._0&format=jsonp&limit=" + str(rows) + "&offset=1&orderby=time"
     res = requests.get(url)
-    data = res
-    ###################################                  file paths
-    home = '/home/'
-    conkypath = "/.conky/"
-    filepathtxt = home + homename + conkypath + 'earthquakes/eq.txt'
-    #filepathjson = '/home/hiro/.conky/earthquakes/eq.json'
-    filepathconky = home + homename + conkypath + 'earthquakes/eqconky.txt'
-    filepathconkyfin = home + homename + conkypath + 'earthquakes/eqconkyfin.txt'
-    ###################################                  get the HTML page source code in a txt file named eq.txt
-    with open(filepathtxt, 'w') as f:
-        f.write(data.text)
-    # first get all lines from file
-    with open(filepathtxt, 'r') as f:
-        lines = f.readlines()
-    # # remove spaces
-    # lines = [line.replace(' ', '') for line in lines]
-    # remove comma
-    lines = [line.replace(',', '') for line in lines]
-    # remove quotes
-    lines = [line.replace('"', '') for line in lines]
-    # finally, write lines in the file
-    with open(filepathtxt, 'w') as f:
-        f.writelines(lines)
-    ###################################                  write conky statements
-    #   mag color
-    maggreen = '${color6}'
-    magorange = '${color3}'
-    magred = '${color4}'
-    j = 24
-    delta = 0
-    time = 600
-    with open(filepathconky, 'w') as fo:
-        for i in range(0, rows):
-            temp = j + delta - 1
-            #   select mag color
-            fomag = open(filepathtxt, 'r')
-            eqtxt = fomag.readlines()
-            string = (eqtxt[temp - 1])
-            rest, n = string.rsplit(':', 1)
-            value = float(n)
-            fomag.close()
-            if (value >= 0 and value < 4):
-                row1_1 = maggreen + "${execpi " + str(time) + " sed -n '" + str(temp + 1) + "p' $HOME" + conkypath + "earthquakes/eq.txt | cut -c14-16} "
-                row1_2 = maggreen + "${execpi " + str(time) + " sed -n '" + str(temp) + "p' $HOME" + conkypath + "earthquakes/eq.txt | cut -c10-12}${color}"
-            elif (value >= 4 and value < 6):
-                row1_1 = magorange + "${execpi " + str(time) + " sed -n '" + str(temp + 1) + "p' $HOME" + conkypath + "earthquakes/eq.txt | cut -c14-16} "
-                row1_2 = magorange + "${execpi " + str(time) + " sed -n '" + str(temp) + "p' $HOME" + conkypath + "earthquakes/eq.txt | cut -c10-12}${color}"
-            elif (value >= 6):
-                row1_1 = magred + "${execpi " + str(time) + " sed -n '" + str(temp + 1) + "p' $HOME" + conkypath + "earthquakes/eq.txt | cut -c14-16} "
-                row1_2 = magred + "${execpi " + str(time) + " sed -n '" + str(temp) + "p' $HOME" + conkypath + "earthquakes/eq.txt | cut -c10-12}${color}"
-            fo.write('{}\n'.format(row1_1))
-            fo.write('{}\n'.format(row1_2))
-            #   end mag color
-            temp = j + delta - 8
-            row1_3 = "${GOTO 50}${execpi " + str(time) + " sed -n '" + str(temp) + "p' $HOME" + conkypath + "earthquakes/eq.txt | cut -c11-20}"
-            fo.write('{}\n'.format(row1_3))
-            temp = j + delta - 6
-            row1_4 = "${GOTO 120}${execpi " + str(time) + " sed -n '" + str(temp) + "p' $HOME" + conkypath + "earthquakes/eq.txt | cut -c10-14}"
-            fo.write('{}\n'.format(row1_4))
-            temp = j + delta - 5
-            row1_5 = "${GOTO 160}${execpi " + str(time) + " sed -n '" + str(temp) + "p' $HOME" + conkypath + "earthquakes/eq.txt | cut -c10-14}"
-            fo.write('{}\n'.format(row1_5))
-            temp = j + delta - 4
-            row1_6 = "${GOTO 210}${execpi " + str(time) + " sed -n '" + str(temp) + "p' $HOME" + conkypath + "earthquakes/eq.txt | cut -c12-16}"
-            fo.write('{}\n'.format(row1_6))
-            temp = j + delta - 2 
-            row1_7 = "${GOTO 265}${execpi " + str(time) + " sed -n '" + str(temp) + "p' $HOME" + conkypath + "earthquakes/eq.txt | cut -c11-16}"
-            fo.write('{}\n'.format(row1_7))
-            temp = j + delta - 7
-            row1_8 = "${GOTO 310}${execpi " + str(time) + " sed -n '" + str(temp) + "p' $HOME" + conkypath + "earthquakes/eq.txt | cut -c19-50}"
-            fo.write('{}\n'.format(row1_8))
-            delta = delta + 26
-    ###################################                  write conky final statements to copy in conky file
-    last = rows * 8 + 1
-    with open(filepathconkyfin, 'w') as fo:
-        for i in range(1, last):
-            temp = i
-            rowconky = "${execpi " + str(time) + " sed -n '" + str(temp) + "p' $HOME" + conkypath + "earthquakes/eqconky.txt}"
-            fo.write('{}\n'.format(rowconky))
+    data = res.json()
+    events = data.get('features', [])
+    
+    output_lines = []
+    
+    for event in events:
+        props = event.get('properties', {})
+        
+        try:
+            value = float(props.get('mag', 0.0))
+        except:
+            value = 0.0
+        magtype = props.get('magtype', 'ML').lower() # minuscolo come l'originale
+        
+        # Color selection based on magnitude
+        if value < 4.0:
+            color_tag = '${color6}'   # Verde
+        elif value < 6.0:
+            color_tag = '${color3}'   # Arancione
+        else:
+            color_tag = '${color4}'   # Rosso
+            
+        # Time (HH:MM:SS). If you prefer the date (YYYY-MM-DD) change [11:19] to [0:10]
+        time_iso = props.get('time', '')
+        eq_time = time_iso[11:19] if len(time_iso) > 19 else "00:00:00"
+        
+        lat = f"{float(props.get('lat', 0.0)):.2f}"
+        lon = f"{float(props.get('lon', 0.0)):.2f}"
+        depth = f"{float(props.get('depth', 0.0)):.1f}"
+        auth = props.get('auth', 'UNK')
+        region = props.get('flynn_region', 'Unknown Region').upper() # Maiuscolo come l'originale
+        
+        # THE KEY TO THE SOLUTION: Everything concatenated into a single string/line
+        single_line = f"{color_tag}{magtype} {value:.1f}${{color}} ${{GOTO 50}}{eq_time} ${{GOTO 120}}{lat} ${{GOTO 160}}{lon} ${{GOTO 210}}{depth} ${{GOTO 265}}{auth} ${{GOTO 310}}{region}"
+        output_lines.append(single_line)
+        
+    # Writing to file
+    with open(filepath_tmp, 'w') as fo:
+        for line in output_lines:
+            fo.write(f"{line}\n")
+            
+    os.replace(filepath_tmp, filepathconky)
+
 except Exception as e:
-    # Manage exceptions (optional)
-    filelockerror = (f"Error during script execution: {e}")
-finally:
-    # remove lock file
-    try:
-        os.remove(lock_file)
-    except FileNotFoundError:
-        pass  # file already removed
+    with open(filepathconky, 'w') as fo:
+        fo.write(f"${{color4}}Error: {e}${{color}}\n")
